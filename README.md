@@ -36,6 +36,8 @@ npm run dev
 
 Open your browser and navigate to **[http://localhost:5173/](http://localhost:5173/)** to view the application.
 
+- Inspect the browser tab and set the dimensions to any mobile view
+
 ---
 
 ## 🎨 Making the Page Personal to You
