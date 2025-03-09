@@ -8,7 +8,7 @@ A fun and interactive mobile website built with **React, Vite, Tailwind CSS, and
 
 ```bash
 git clone https://github.com/rheinatamara/relationship_website_v2.git
-cd relationship_website_mobile
+cd relationship_website_v2
 ```
 
 ### 2️⃣ Install Dependencies
