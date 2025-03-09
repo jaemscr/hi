@@ -96,7 +96,7 @@ EMAIL_PASS=your-app-password
 PORT=your-port
 ```
 
-- Replace `your-email@gmail.com` with your Gmail address and `your-app-password` with the app password you generated.
+- Replace `your-email@gmail.com` with your Gmail address, `your-app-password` with the app password you generated and `your-port` with your development port
 
 ### **4️⃣ Configure Nodemailer**
 
