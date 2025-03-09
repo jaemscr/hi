@@ -1,5 +1,7 @@
 # Relationship Website Mobile V2
 
+A fun and interactive mobile website built with **React, Vite, Tailwind CSS, and Express.js** as seen on social media
+
 ## 🚀 Installation
 
 ### 1️⃣ Clone the Repository
