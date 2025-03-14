@@ -222,7 +222,7 @@ The backend is built with Express.js and can be deployed using platforms like **
 - Before deploying the server, ensure that you change the cors origin to your frontend domain.
 
 ```js
-app.use(cors({ origin: "http://localhost:5173" })); // This is for development with Vite. Update this to your frontend domain (e.g., "https://your-frontend-domain.com") if you have deployed it.
+app.use(cors({ origin: "https://your-frontend-domain-example" })); //change this to your deployed frontend domain
 ```
 
 - After deploying the server, update the `baseURL` in the `config.js` file to point to your live backend URL. For example:
@@ -260,3 +260,6 @@ For any questions, **open an issue** on the repository❤️
 ## **Live Demo**
 
 👉 [Relationship Website V2 Demo](https://testing-beryl-nine.vercel.app/)
+## **Repository**
+
+👉 [Live Demo Repository](https://github.com/rheinatamara/testing.git)
