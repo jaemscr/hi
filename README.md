@@ -75,7 +75,7 @@ This project uses **[Tailwind CSS](https://tailwindcss.com/)** for styling.
 
 ---
 
-### **2. BACKEND SIDE**
+### **2. BACKEND SIDE (for Nodemailer)**
 
 ### **1️⃣ Setting Up Environment Variables**
 
