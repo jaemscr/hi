@@ -6,7 +6,7 @@ A fun and interactive mobile website built with **React, Vite, Tailwind CSS, and
 
 ---
 ## 🚀 Installation
----
+
 &nbsp;
 
 
@@ -53,11 +53,11 @@ Open your browser and navigate to **[http://localhost:5173/](http://localhost:51
 
 &nbsp;
 
----
 
-## 🎨 Making the Page Personal to You
 
----
+# 🎨 Making the Page Personal to You
+
+
 &nbsp;
 
 
@@ -155,7 +155,7 @@ let mailOptions = {
 &nbsp;
 
 
-## Important notes:
+## **Important notes:**
 
 - Ensure that your `.env` file contains the correct `EMAIL_USER` and `EMAIL_PASS` (App Password) for the sender email.
 - If you’re using Gmail, ensure you’ve enabled **2-Step Verification** and generated an **App Password** as described in the Backend Setup section.
@@ -167,7 +167,7 @@ let mailOptions = {
 ---
 ## 🚀 **Deployment**
 
----
+
 
 To deploy this project, you’ll need to deploy both the **client (frontend)** and **server (backend)** separately. Below are the general steps:
 
@@ -233,7 +233,7 @@ api: {
   sendEmailEndpoint: "/send-email",
 },
 ```
-And **re-deploy** your frontend / backend as needed
+And **re-deploy** your frontend / backend as needed after your changes
 
 &nbsp;
 
@@ -241,13 +241,25 @@ And **re-deploy** your frontend / backend as needed
 &nbsp;
 
 
-## 📜 **Summary**
+## 📜 **Project Summary and Setup Guide**
 
-1️⃣ Since the `frontend` and `backend` are in the same repository, you’ll need to specify the correct folder **(client or server)** during deployment.
+### **Customization**
 
-2️⃣ Ensure your backend is properly deployed and running before updating the `baseURL` in the frontend configuration.
+1. Everything is customizeable, modify the project in `config/config.js` in the frontend directory.
 
-3️⃣ Ensure every feature is working properly
+2. Ensure the `baseUrl` in the config matches your development port.
+
+3. Verify that all `.env` variables are correctly configured and point to the intended resources
+
+5. Test features during development **(e.g., Nodemailer should work even in development mode)**
+
+### **Deployment**
+
+1. Since the `frontend` and `backend` are in the same repository, you’ll need to specify the correct folder **(client or server)** during deployment.
+
+2. Deploy the backend first and confirm that it's running before updating the `baseUrl` in the frontend configuration
+
+3. After deployment, thoroughly test all features and re-deploy as necessary to resolve any issues.
 
 &nbsp;
 
@@ -260,6 +272,3 @@ For any questions, **open an issue** on the repository❤️
 ## **Live Demo**
 
 👉 [Relationship Website V2 Demo](https://testing-beryl-nine.vercel.app/)
-## **Repository**
-
-👉 [Live Demo Repository](https://github.com/rheinatamara/testing.git)
